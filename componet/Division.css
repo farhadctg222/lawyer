@@ -1,0 +1,62 @@
+
+.active{
+    background-color: #ffe600;
+    padding: 1px;
+}
+.listLawyer{
+    border: 1px solid rgb(228, 213, 213);
+}
+
+
+.lawItps{
+    border-bottom: 1px solid rgb(172, 160, 160);
+   text-align: center;
+   padding: 10px;
+   
+   font-family:  roboto,sans-serif;
+   text-transform: uppercase;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+   margin: 0;
+   background-color: rgb(22, 209, 137);
+  
+}
+.button button{
+   margin: 5px;
+   border-style: none;
+   background-color: #2a7fba;
+   border-radius: 4px;
+   padding: 10px;
+   color: white;
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.Recently{
+    border: 1px solid rgb(199, 193, 193);
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+    font-family: roboto,sans-serif;
+    color: white
+}
+.aboutBangladesh{
+    border: 1px solid black;
+    text-align: center;
+}
+.aboutBangladesh h2{
+    border-bottom: 1px solid black;
+}
+.aboutBangladesh p{
+    border-top: 1px solid black;
+}
+
+   
