@@ -1,9 +1,9 @@
 'use client'
 import Link from "next/link";
 import Image from "next/image";
-import { Sheet, SheetContent, SheetTrigger } from "@/styles/components/ui/sheet";
-import { FiAlignJustify } from "react-icons/fi";
 import { usePathname } from "next/navigation";
+import { FiAlignJustify } from "react-icons/fi";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const  MobileNav =  ()=> {
 const pathname = usePathname()

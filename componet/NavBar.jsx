@@ -1,9 +1,8 @@
 
 import Link from 'next/link';
-
-import React from 'react';
 import MobileNav from './MobileNav';
 import Nav from './Nav';
+import React from 'react';
 
 const NavBar = () => {
     return (
@@ -17,7 +16,7 @@ const NavBar = () => {
                 </Link>
                 {/* desktop nav & hire me button */}
                 <div className=" hidden xl:flex items-center gap-3">
-                    <Nav></Nav>
+                   <Nav></Nav>
                     <Link href="/contact">
                     <button className="btn text-white btn-success mr-5">Donation</button>
                     </Link>

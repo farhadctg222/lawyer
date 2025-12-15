@@ -24,7 +24,7 @@ const Division = () => {
 
 
                     <Link href="/">  <button>Dhaka</button></Link>
-                    <Link href="" className='active'> <button>Chattogram</button></Link>
+                    <Link href="/"> <button>Chattogram</button></Link>
                     <Link href="/"><button>Rajshahi</button></Link>
                     <Link href="/"><button>Sylhet</button></Link>
                     <Link href="/"><button>Rangpur</button> </Link>
