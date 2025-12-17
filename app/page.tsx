@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../componet/Header';
-import Foter from '../componet/Foter';
-import Division from '../componet/Division';
+import Header from './componet/Header';
+import Foter from './componet/Foter';
+import Division from './componet/Division';
 const page = () => {
   return (
     <div>
