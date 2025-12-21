@@ -16,7 +16,22 @@ const pathname = usePathname()
         {
             name: 'service',
             path:'/service'
-        }
+        },
+       
+        {
+            name: 'staff',
+            path:'/staff'
+        },
+       
+        {
+            name: 'Director',
+            path:'/director'
+        },
+       
+        {
+            name: 'History',
+            path:'/history'
+        },
        
 
        

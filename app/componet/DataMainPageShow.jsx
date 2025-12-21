@@ -14,7 +14,6 @@ const data = async () => {
 
 const DataMainPageShow = async () => {
     const lawdata = await data()
-    console.log(lawdata)
 
 
 

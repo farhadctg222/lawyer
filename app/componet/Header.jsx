@@ -14,7 +14,10 @@ const Header = () => {
                <Link href="/" style={{textDecoration:'none'}}> <li>Lawyer</li></Link>
             </ul>
            </nav>
-            
+           <div>
+            <input type="button" value="search" />
+           </div>
+          
         </div>
     );
 };

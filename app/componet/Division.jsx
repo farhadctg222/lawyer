@@ -62,7 +62,7 @@ const Division = () => {
             <div><DataMainPageShow></DataMainPageShow></div>
             
             <div className="aboutBangladesh">
-                <h2>About Lawyer Bangladesh</h2>
+                <h2 className='lawItps'>About Lawyer Bangladesh</h2>
                 <p>Lawyer-bangladesh.com is going to be the best website in Bangladesh. Common people will benefit through this web site. Skilled lawyers and accountants profiles on this web site with their pictures, their names, their educational qualifications
                     Can see office address. Remember that Lawyers-bangladesh.com does not give an Appointment to anyone.</p>
 

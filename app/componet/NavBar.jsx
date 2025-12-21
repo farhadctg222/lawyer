@@ -11,14 +11,14 @@ const NavBar = () => {
                {/* logo */}
                 <Link href="/">
                 <h1 className=" ml-5 text-2xl md:text-lg md:text-md  font-semibold">
-                    AdvocateLinker<span className="text-red">.</span><span>com</span>
+                    AdvocateListBD<span className="text-red">.</span><span>com</span>
                 </h1>
                 </Link>
                 {/* desktop nav & hire me button */}
                 <div className=" hidden xl:flex items-center gap-3">
                    <Nav></Nav>
                     <Link href="/contact">
-                    <button className="btn text-white btn-success mr-5">Donation</button>
+                    <button className=" bg-amber-400 text-white btn-success mr-5">Donation</button>
                     </Link>
 
                 </div>
