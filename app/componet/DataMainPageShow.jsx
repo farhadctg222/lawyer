@@ -66,10 +66,12 @@ import Link from "next/link";
 import './Division.css'
 
 const getData = async () => {
-  const res = await fetch("http://localhost:3000/api", {
-    cache: "no-store",
-    revalidate: 10,
-  });
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}/api`,
+    {
+      cache: "no-store",
+      next: { revalidate: 10 }, // Next.js App Router way
+    }
+  );
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");
@@ -77,6 +79,7 @@ const getData = async () => {
 
   return res.json();
 };
+
 
 const DataMainPageShow = async () => {
   const lawdata = await getData();
@@ -87,6 +90,7 @@ const DataMainPageShow = async () => {
       <h1>All Post</h1>
 
       <div>
+        {services.length === 0 && <p>No data available.</p> }
         {services.map((post, index) => {
           const slug = post.name
             .replace(/\s+/g, "-")
