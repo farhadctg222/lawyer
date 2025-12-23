@@ -12,19 +12,22 @@
     border-bottom: 1px solid rgb(172, 160, 160);
    text-align: center;
    padding: 10px;
+   color: white
+
+;
    
    font-family:  roboto,sans-serif;
    text-transform: uppercase;
    font-weight: bolder;
-   color: rgb(255, 255, 255);
+   
    margin: 0;
-   background-color: rgb(22, 209, 137);
+   background-color:#1F5F5B;
   
 }
 .button button{
    margin: 5px;
    border-style: none;
-   background-color: #2a7fba;
+   background-color: #25638f;
    border-radius: 4px;
    padding: 10px;
    color: white;
@@ -32,11 +35,13 @@
 }
 .button{
     display: flex;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
     flex-direction: row; 
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #F4F6F6
 }
 
 

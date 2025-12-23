@@ -6,11 +6,11 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <header className="py-5 sticky  top-0 bg-[#00d8ff] xl:py-8 text-">
+        <header className="py-5 sticky  top-0 bg-[#1F5F5B] xl:py-8 text-">
             <div className="container  mx-auto flex justify-between  items-center">
                {/* logo */}
                 <Link href="/">
-                <h1 className=" ml-5 text-2xl md:text-lg md:text-md  font-semibold">
+                <h1 className=" ml-5 text-2xl md:text-lg md:text-md text-white font-extrabold">
                     AdvocateListBD<span className="text-red">.</span><span>com</span>
                 </h1>
                 </Link>
